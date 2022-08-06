@@ -1,0 +1,95 @@
+body {
+  background: linear-gradient(45deg, #77fc46, #3f5efb);
+  height: 100vh;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.container {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+}
+
+form h5 {
+  font-family: Montserrat, sans-serif;
+  font-weight: 400;
+  color: #fff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+  margin-top: 0;
+}
+form {
+  background: rgba(255, 255, 255, 0.3);
+  padding: 2em 6em 10em;
+  height: 320px;
+  border-radius: 20px;
+  border-left: 1px solid rgba(255, 255, 255, 0.3);
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  /* ~ i like this one*/
+  backdrop-filter: blur(10px);
+  box-shadow: 20px 20px 40px -6px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  position: relative;
+  transition: all 0.2s ease-in-out;
+}
+/* form p {
+  font-weight: 500;
+  color: #fff;
+  opacity: 0.7;
+  font-size: 1.4rem;
+  margin-top: 0;
+  margin-bottom: 60px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+} */
+/* form a {
+  text-decoration: none;
+  color: #ddd;
+  font-size: 12px;
+}
+form a:hover {
+  text-shadow: 2px 2px 6px #000 40;
+}
+form a:active {
+  text-shadow: none;
+} */
+form input,
+form textarea {
+  background: transparent;
+  width: 200px;
+  padding: 1em;
+  margin-bottom: 1em;
+  border: none;
+  border-left: 1px solid rgba(255, 255, 255, 0.3);
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(5px);
+  box-shadow: 4px 4px 60px rgba(0, 0, 0, 0.2);
+  color: #fff;
+  font-family: Montserrat, sans-serif;
+  font-weight: 500;
+  transition: all 0.2s ease-in-out;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+form input {
+  border-radius: 500px;
+}
+form textarea {
+  border-radius: 20px;
+}
+form input:hover,
+form textarea:hover {
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 4px 4px 60px 8px rgba(0, 0, 0, 0.2);
+  cursor: text;
+}
+
+form input,
+form textarea:active {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+::placeholder {
+  font-family: Montserrat, sans-serif;
+  font-weight: 400;
+  color: #fff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
