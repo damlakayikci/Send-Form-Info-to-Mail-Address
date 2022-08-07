@@ -1,6 +1,4 @@
 const nodemailer = require("nodemailer");
-const mailGun = require("nodemailer-mailgun-transport");
-
 
 const transporter = nodemailer.createTransport({
   service: "hotmail", // your mail service. Hotmail for hotmail & outlook
