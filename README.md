@@ -9,3 +9,5 @@
   🎊 Finally, to run the program, type 'node server.js' to the terminal, and from your browser go to the address 'localhost:8080'. 
   
   With this project, you'll learn how to send mails using nodemailer, you'll learn how to redirect data and you'll make a real-life full-stack web application. 
+
+![](ss.png)
