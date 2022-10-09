@@ -1,6 +1,6 @@
 # Send-Form-Info-to-Mail-Address
 
-  This is a beginner friendly full-stack JavaScript project, which sends your form data to your desired email address. 
+  This is a beginner friendly full-stack JavaScript project, which sends your form data to a desired email address. 
   
   ⌨️ To start, first download the necessary node modules using the command 'npm install express nodemailer' in the terminal.
   
